@@ -1,5 +1,6 @@
+import 'styles/globals.css';
+
 const App = ({ Component, pageProps }) => {
-    console.log("App")
     return <Component {...pageProps} />
 };
 
